@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "ex02-expo",
-    "slug": "ex02-expo",
+    "slug": "portfolio-lucasmourato",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -43,6 +43,13 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "7f711998-9700-4a03-a95e-3c84f4cc2216"
+      }
+    },
+    "owner": "lucasmam"
   }
 }
