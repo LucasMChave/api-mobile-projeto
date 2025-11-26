@@ -4,7 +4,7 @@ export const styles = StyleSheet.create({
     button: {
         width: "60%",
         height: "5%",
-        backgroundColor: "#777777",
+        backgroundColor: "#ffffffff",
         justifyContent: "center",
         alignItems: "center",
         marginBottom: 20,
@@ -12,7 +12,7 @@ export const styles = StyleSheet.create({
     },
 
     title: {
-        color: "#980000ff",
+        color: "#ff00ddff",
         fontSize: 25,
     },
 });

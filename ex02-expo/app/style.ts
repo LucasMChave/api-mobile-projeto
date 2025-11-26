@@ -27,18 +27,8 @@ export const styles = StyleSheet.create({
         color: "#750180",
         fontSize: 16,
         marginBottom: 12,
-        textAlign: "center",
         backgroundColor: "#FC9483",
-    },
-
-    bio:{
-        color: "#750180",
-        backgroundColor: "#FC9483", 
-        fontSize: 16,
-        marginBottom: 15,
-        marginLeft: 15,
-        justifyContent: "flex-start",
-        alignSelf: "flex-start",
+        textAlign: "center",
     },
 
     picture: {
@@ -47,23 +37,6 @@ export const styles = StyleSheet.create({
         borderRadius: 75,
         marginBottom: 20,
         backgroundColor: "#ffffff",
-    },
-
-    segment:{
-        backgroundColor: "#FC94AF",
-        width: "90%",
-        fontSize: 24,
-        marginBottom: 12,
-        display: "flex",
-        alignItems: "center",
-        textAlign: "center",
-    },
-
-    topics:{
-        backgroundColor: "#FC9483", 
-        marginLeft: 15,
-        justifyContent: "flex-start",
-        alignSelf: "flex-start",
     },
 
     quote: {
@@ -79,9 +52,46 @@ export const styles = StyleSheet.create({
         textDecorationLine: "none",
     },
 
+    segment: {
+
+    },
+    
+    chapter:{
+        backgroundColor: "#FC94AF",
+        width: "90%",
+        fontSize: 24,
+        marginBottom: 6,
+        display: "flex",
+        alignItems: "center",
+        textAlign: "center",
+    },
+
+    bio:{
+        width: "85%",
+        color: "#750180",
+        backgroundColor: "#FC9483", 
+        fontSize: 16,
+        marginBottom: 15,
+        justifyContent: "flex-start",
+        alignSelf: "center",
+    },
+
+    topics:{
+        width: "85%",
+        color: "#750180",
+        backgroundColor: "#FC9483", 
+        fontSize: 16,
+        marginBottom: 15,
+        justifyContent: "flex-start",
+        alignSelf: "center",
+    },
+
+    groupLinks: {
+
+    },
+
     hyperlink: {
         color: 'blue',
-        textDecorationLine: 'underline',
         justifyContent: "flex-start",
         alignSelf: "flex-start",
     },
