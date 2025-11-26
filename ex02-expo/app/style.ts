@@ -8,7 +8,7 @@ export const styles = StyleSheet.create({
         justifyContent: 'center',
         padding: 16,
         gap: 12,
-        backgroundColor: "#fcbacb",
+        backgroundColor: "#FEC5E5",
     },
     
     title: {
@@ -20,6 +20,9 @@ export const styles = StyleSheet.create({
         marginTop: 22,
         backgroundColor: "#FC94AF",
         textAlign: "center",
+        borderWidth: 2,
+        borderColor: "#e11584",
+        borderRadius: 10,
     },
 
     description: {
@@ -27,8 +30,11 @@ export const styles = StyleSheet.create({
         color: "#750180",
         fontSize: 16,
         marginBottom: 12,
-        backgroundColor: "#FC9483",
+        backgroundColor: "#FC94AF",
         textAlign: "center",
+        borderWidth: 2,
+        borderColor: "#e11584",
+        borderRadius: 10,
     },
 
     picture: {
@@ -53,12 +59,18 @@ export const styles = StyleSheet.create({
     },
 
     segment: {
-
+        flex: 1,
+        alignItems: "center",
+        backgroundColor: "#FC94AF",
+        borderWidth: 2,
+        borderColor: "#e11584",
+        borderRadius: 20,
+        width: "85%",
+        marginBottom: 15,
     },
     
     chapter:{
-        backgroundColor: "#FC94AF",
-        width: "90%",
+        width: "85%",
         fontSize: 24,
         marginBottom: 6,
         display: "flex",
@@ -66,34 +78,38 @@ export const styles = StyleSheet.create({
         textAlign: "center",
     },
 
-    bio:{
+    box:{
         width: "85%",
         color: "#750180",
-        backgroundColor: "#FC9483", 
+        backgroundColor: "#FEC5E5", 
         fontSize: 16,
         marginBottom: 15,
+        padding: 7,
         justifyContent: "flex-start",
         alignSelf: "center",
-    },
-
-    topics:{
-        width: "85%",
-        color: "#750180",
-        backgroundColor: "#FC9483", 
-        fontSize: 16,
-        marginBottom: 15,
-        justifyContent: "flex-start",
-        alignSelf: "center",
+        borderRadius: 20,
+        borderWidth: 2,
+        borderColor: "#e11584",
     },
 
     groupLinks: {
-
+        display: "flex",
+        flexWrap: "wrap",
+        flexDirection: "row",
+        justifyContent: "center",
+        alignItems: "center",
+        alignContent: "center",
+        rowGap: 3,
+        columnGap: 3,
+        marginBottom: 12,
     },
 
     hyperlink: {
         color: 'blue',
         justifyContent: "flex-start",
         alignSelf: "flex-start",
+        width: "45%",
+        flexShrink: 0,
     },
 
     logo: {
