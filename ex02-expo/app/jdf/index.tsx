@@ -110,7 +110,6 @@ export default function HangmanGame({ navigation }: any) {
                 <Text style={styles.guesses}>Letras chutadas: {guessedList || "—"}</Text>
 
                 <Input
-                style={styles.input}
                 placeholder="Digite uma letra ou palavra"
                 placeholderTextColor="#aaa"
                 value={input}
