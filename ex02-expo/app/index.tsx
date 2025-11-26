@@ -1,12 +1,19 @@
 import { Button } from '@/components/button';
-import { Link } from "expo-router";
+import { Link, router } from "expo-router";
 import { Alert, Image, ImageBackground, ScrollView, Text, View } from 'react-native';
 
 import { styles } from './style';
 
 export default function Home() {
-    function handleMessage() {
-        Alert.alert("TBD")
+    function hangmanMessage() {
+        Alert.alert("Adivinhe a palvra dentro das seguintes regras:", 
+            "- Clique ENTER pra chutar uma letra\n- Apenas 5 tentativas\n- 1 chute ENCERRA o jogo\n", [
+                {
+                    text: 'Cancelar', onPress: () => console.log('Cancel Pressed'),
+                },{
+                    text: 'Começar', onPress: () => router.push("./jdf"),
+                }
+            ]);
     }
 
     return (
@@ -53,10 +60,9 @@ export default function Home() {
                         <Text style={styles.chapter}>• Interesses Profissionais •</Text>
                         <Text style={styles.box}>-  Design grafico (UI-UX);{"\n"}
                             - Desenvilvimento de Softwares;{"\n"}
-                            - Aritmetrica e Matemática;{"\n"}
+                            - Gamedesign e Game Development;{"\n"}
                             - Artes Visuais;{"\n"}
                             - Filosofia;{"\n"}
-                            - Gamedesign e Game Development;{"\n"}
                             - Atividades competitivas;{"\n"}</Text>
                     </View>
 
@@ -78,7 +84,7 @@ export default function Home() {
                         </View>
                     </View>
                     
-                    <Button title = "Jogo da Forca" onPress = {handleMessage}/>
+                    <Button title = "Jogo da Forca" onPress = {hangmanMessage}/>
                 </View>
             </ImageBackground>
         </ScrollView>
