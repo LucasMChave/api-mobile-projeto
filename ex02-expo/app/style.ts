@@ -8,7 +8,7 @@ export const styles = StyleSheet.create({
         justifyContent: 'center',
         padding: 16,
         gap: 12,
-        backgroundColor: "#FEC5E5",
+        marginBottom: 40,
     },
     
     title: {
@@ -37,15 +37,26 @@ export const styles = StyleSheet.create({
         borderRadius: 10,
     },
 
+    portrait:{
+        width: 220,
+        height: 220,
+        borderRadius: 75,
+        marginBottom: 20,
+        backgroundColor: "#ffdbd3",
+        justifyContent: "center",
+        alignItems: "center",
+        borderColor: "#1d7fb7",
+        borderWidth: 3,
+    },
+
     picture: {
         width: 200,
         height: 200,
         borderRadius: 75,
-        marginBottom: 20,
-        backgroundColor: "#ffffff",
     },
 
     quote: {
+        color: "#ffffff",
         marginBottom: 20,
         fontSize: 18,
         fontStyle: "italic",
