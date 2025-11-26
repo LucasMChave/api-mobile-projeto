@@ -2,10 +2,13 @@ import { StyleSheet } from 'react-native';
 
 export const styles = StyleSheet.create({
     input: {
-        width: "75%",
-        height: 40,
-        borderWidth: 5,
-        borderRadius: 30,
-        borderColor: "#000000"
-    }
+        width: "80%",
+        backgroundColor: "#222222",
+        color: "#ffd6ff",
+        borderRadius: 8,
+        padding: 10,
+        textAlign: "center",
+        fontSize: 18,
+        marginBottom: 20,
+    },
 });

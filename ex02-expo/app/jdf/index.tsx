@@ -1,6 +1,7 @@
 import { router } from "expo-router";
 import React, { useEffect, useState } from "react";
-import { Image, ImageBackground, Text, TextInput, TouchableOpacity, View } from "react-native";
+import { Image, ImageBackground, Text, TouchableOpacity, View } from "react-native";
+import { Input } from "../../components/input";
 import styles from "./styles";
 
 const WORDS = [ "AMIGO", "APPLE", "ARTIFICIAL", "ASSEMBLY", "BIBLIOTECA", "CELULAR", "CHROME", 
@@ -108,7 +109,7 @@ export default function HangmanGame({ navigation }: any) {
                 <Text style={styles.attempts}>Tentativas restantes: {attempts}</Text>
                 <Text style={styles.guesses}>Letras chutadas: {guessedList || "—"}</Text>
 
-                <TextInput
+                <Input
                 style={styles.input}
                 placeholder="Digite uma letra ou palavra"
                 placeholderTextColor="#aaa"
