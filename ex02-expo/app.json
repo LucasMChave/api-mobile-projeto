@@ -55,6 +55,12 @@
         "projectId": "7f711998-9700-4a03-a95e-3c84f4cc2216"
       }
     },
-    "owner": "lucasmam"
+    "owner": "lucasmam",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/7f711998-9700-4a03-a95e-3c84f4cc2216"
+    }
   }
 }
